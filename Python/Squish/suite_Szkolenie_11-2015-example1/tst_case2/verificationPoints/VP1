@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="Table" version="4">
+<Description/>
+<Verification object=":Address Book - Unnamed_Table">
+<table hasText="1">
+<row>
+<cell>
+<text>Maniek</text>
+</cell>
+<cell>
+<text>Miotla</text>
+</cell>
+<cell>
+<text>maniek@domena.com</text>
+</cell>
+<cell>
+<text>123456789</text>
+</cell>
+</row>
+<row>
+<cell>
+<text>Honorata</text>
+</cell>
+<cell>
+<text>Niepotrzebna</text>
+</cell>
+<cell>
+<text>x@xx.xx</text>
+</cell>
+<cell>
+<text>098765432</text>
+</cell>
+</row>
+<row>
+<cell>
+<text>Zenek</text>
+</cell>
+<cell>
+<text>Jajczarski</text>
+</cell>
+<cell>
+<text>zenus@domena.com</text>
+</cell>
+<cell>
+<text>123123123</text>
+</cell>
+</row>
+</table>
+</Verification>
+</VerificationPoint>

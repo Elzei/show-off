@@ -1,0 +1,11 @@
+
+def my_loger(file_name)
+    """ implementation arg and return value log to file decorator...."""
+    pass
+
+@my_loger('/tmp/log_function.txt')
+def calculate(a, b, c):
+    return a + b + c
+
+if __name__ == '__main__':
+    calculate(10, 20, 30) # in file /tmp/log_function.txt: "calculate: (10, 20, 30) : 60"

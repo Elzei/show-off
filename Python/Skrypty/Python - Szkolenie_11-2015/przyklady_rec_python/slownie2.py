@@ -1,0 +1,25 @@
+
+def slownie(val):
+    messages = { 0: "zero", 1: "jeden", 2: "dwa", 3: "trzy", 4: "cztery", 5: "pięć",
+            6: "sześć", 7: "siedem", 8: "osiem", 9: "dziewięć", 10: "dziesięć",
+            11: "jedenaście", 12: "dwanaście", 13: "trzynaście", 14: "czternaście", 15: "piętnaście",
+            16: "szesnaście", 17: "siedemnaście", 18: "osiemnaście", 19: "dziewiętnaście",
+            20: "dwadzieścia", 30: "trzydzieści", 40: "czterdzieści", 50: "pięćdziesiąt",
+            60: "sześćdziesiąt", 70: "siedemdziesiąt", 80: "osiemdziesiąt", 90: "dziewięćdziesiąt",
+            100: "sto", 200: "dwieście", 300: "trzysta", 400: "czterysta", 500: "pięćset",
+            600: "sześćset", 700: "siedemset", 800: "osiemset", 900: "dziewięćset" }
+
+    answer = ""
+
+    if not isinstance(val,int):
+        raise TypeError("Only integers accepted")
+    elif ( val < 0 ) or (val > 1000):
+        raise ValueError("Only val >= 0 and val < 1000 accepted")
+    elif (val > 99) and (val % 100):
+        answer = messages[(val // 100) * 100] + " " + slownie(val % 100)
+    elif (val > 19) and (val % 10):
+        answer = messages[(val // 10) * 10] + " " + messages[val % 10]
+    else:
+        answer = messages[val]
+
+    return answer

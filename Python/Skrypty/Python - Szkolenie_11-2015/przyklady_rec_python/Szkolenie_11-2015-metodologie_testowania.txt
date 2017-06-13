@@ -1,0 +1,28 @@
+Metodyki testowania:
+	TDD - Test Driven Development
+		Etapy:
+			0. Think - przemyśl
+			1. Red - kod testu nie przeszedł
+			2. Grey - kod pisany "na konia", czyli pisanie jak najszybciej byle by działał
+			3. Green - refaktoryzacja kodu (powrót do pkt 0 lub/i commit)
+		Wady:
+			tzw. "garb testowania" czyli wysiłek w pracy jest b.duży, potem sapda. Ludzie na początku wolniej piszą kod, muszą powstać automaty do testowania kodu itd.
+			TDD nadają się do długoterminowych projektów i utrzymaniówki
+		Zalety:
+			Redukcja błędów o 95%-98%
+			
+	BDT - Behavoiur Driven Testing
+		Etapy:
+			1. Scenarius (np. Wystawienie fakt VAT):
+				1. Given (faktura)
+				2. Then (wyświetla się)
+				3. When (zapisuje się do bazy danych)
+			(i potem podpinamy skrypty pod te "3" kroki ("Given" i "Then" może być więcej ale "When" powinno być jedno))
+		
+	DDT - Domen Driven Testing
+
+Rodzaje testów:
+	UT - Unit Test
+	UAT - User Acceptence Tests
+	q - atrybuty jakości wewnętrznej: czytelność kody, poprawność itd.
+	Q - atrybut jakości dla klienta: responsywność, wygląd itd.

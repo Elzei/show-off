@@ -1,0 +1,6 @@
+# ....                                                                                                           
+import multiprocessing                                                                                           
+c = CountDownTask(3)                                                                                             
+p = multiprocessing.Process(target=c.run)                                                                        
+p.start()                                                                                                        
+# ...    

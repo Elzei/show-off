@@ -1,0 +1,60 @@
+Embeded C #1
+-
+
+Embeded C #2
+mikrokontroler STM32F4 Discovery
+
+Embeded C #3
+GPIO - General Purpose Input/Output
+Port A-Z
+PIN 0-15
+PA0, PB3 -> Port A PIN 0, Port B PIN 3
+
+0 i 1 w elektronice to albo brak napięcia albo domyślne napięcie (najczęściej opisane jako VDD)
+0 - brak napięcia
+1 - napięcie domyślnne
+
+W kontekście podpięcia PIN'a (gdzie PIN float to PIN nie podpięty):
+	Pull up - 
+	Pull down - napięcie do ziemii (uzmienie)
+	input floating - 
+	input pull-up - jest zasilanie. Daje wartość domyślną na wejściu.
+	input pull-down - nie ma zasilania. Daje wartość domyślną na wejściu.
+	analog - sygnał analogowy jest nieskonczony w czasie (a cyfrowy jest skończony w czasie, przełożenie analogowego na cyfrowy polega w uproszczeniu na ograniczenia go do wycinka czasu)
+
+VSS - 
+VDD - napięcie zasilania
+Alternate (slajd 3) - to wtedy gdy PIN przejmuje kontrole na urządzeniu wewnatrz
+
+Galwaniczna separacja - ???
+
+Embeded C #4
+Przejrzeć rozdział 8.3 z Manuala "funcional description"
+https://pl.wikibooks.org/wiki/C/Operatory
+Co to volatile? (C)
+Eliminacja drgań styków
+Zaimplementować funkcję niwelującą drganie styków za pomocą Delay
+Napisać bibliotekę na GPIO
+
+Embeded C #5
+-
+
+Embeded C #6
+-
+
+Embeded C #7
+Co to RCC?
+Co to alternate function?
+Co to USART?
+
+Podmienić w funkcji "main.c" wszystko na rzeczeski z mojej biblioteki gpio.c
+
+Dokumentacja przerwań http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0439b/Cihfihfe.html
+
+Embeded C #8
+
+
+Embeded C #9
+
+
+Embeded C #10

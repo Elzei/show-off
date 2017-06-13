@@ -1,0 +1,41 @@
+:1_1_TableCell	{column='1' container=':Address Book - MyAddresses.adr_Table' row='1' type='TableCell'}
+:2_1_TableCell	{column='1' container=':Address Book - MyAddresses.adr_Table' row='2' type='TableCell'}
+:2_2_TableCell	{column='2' container=':Address Book - MyAddresses.adr_Table' row='2' type='TableCell'}
+:2_3_TableCell	{column='3' container=':Address Book - MyAddresses.adr_Table' row='2' type='TableCell'}
+:2_4_TableCell	{column='4' container=':Address Book - MyAddresses.adr_Table' row='2' type='TableCell'}
+:Add_ToolbarItem	{container=':Address Book - Unnamed_Toolbar' text='Add' type='ToolbarItem'}
+:Add_ToolbarItem_2	{container=':Address Book - MojaNowaTabela.adr_Toolbar' text='Add' type='ToolbarItem'}
+:Address Book - Add.Cancel_Button	{container=':Address Book - Add_Window' text='Cancel' type='Button'}
+:Address Book - Add.Email:_Edit	{container=':Address Book - Add_Window' leftObject=':Address Book - Add.Email:_Label' type='Edit'}
+:Address Book - Add.Email:_Label	{container=':Address Book - Add_Window' text='Email:' type='Label'}
+:Address Book - Add.Forename:_Edit	{container=':Address Book - Add_Window' leftObject=':Address Book - Add.Forename:_Label' type='Edit'}
+:Address Book - Add.Forename:_Label	{container=':Address Book - Add_Window' text='Forename:' type='Label'}
+:Address Book - Add.OK_Button	{container=':Address Book - Add_Window' text='OK' type='Button'}
+:Address Book - Add.Phone:_Edit	{container=':Address Book - Add_Window' leftObject=':Address Book - Add.Phone:_Label' type='Edit'}
+:Address Book - Add.Phone:_Label	{container=':Address Book - Add_Window' text='Phone:' type='Label'}
+:Address Book - Add.Surname:_Edit	{container=':Address Book - Add_Window' leftObject=':Address Book - Add.Surname:_Label' type='Edit'}
+:Address Book - Add.Surname:_Label	{container=':Address Book - Add_Window' text='Surname:' type='Label'}
+:Address Book - Add_Window	{text='Address Book - Add' type='Window'}
+:Address Book - Choose File.Open_Button	{container=':Address Book - Choose File_Dialog' text='Open' type='Button'}
+:Address Book - Choose File_Dialog	{text='Address Book - Choose File' type='Dialog'}
+:Address Book - MojaNowaTabela.adr_Table	{container=':Address Book - MojaNowaTabela.adr_Window' type='Table'}
+:Address Book - MojaNowaTabela.adr_Toolbar	{container=':Address Book - MojaNowaTabela.adr_Window' type='Toolbar'}
+:Address Book - MojaNowaTabela.adr_Window	{text='Address Book - MojaNowaTabela.adr' type='Window'}
+:Address Book - MyAddresses.adr_Menubar	{container=':Address Book - MyAddresses.adr_Window' type='Menubar'}
+:Address Book - MyAddresses.adr_Table	{container=':Address Book - MyAddresses.adr_Window' type='Table'}
+:Address Book - MyAddresses.adr_Window	{text='Address Book - MyAddresses.adr' type='Window'}
+:Address Book - Save As.Save_Button	{container=':Address Book - Save As_Dialog' text='Save' type='Button'}
+:Address Book - Save As_Dialog	{text='Address Book - Save As' type='Dialog'}
+:Address Book - Save As_Edit	{container=':Address Book - Save As_Dialog' type='Edit'}
+:Address Book - Unnamed_Table	{container=':Address Book - Unnamed_Window' type='Table'}
+:Address Book - Unnamed_Toolbar	{container=':Address Book - Unnamed_Window' type='Toolbar'}
+:Address Book - Unnamed_Window	{text='Address Book - Unnamed' type='Window'}
+:File.Quit_MenuItem	{container=':File_MenuItem' text='Quit' type='MenuItem'}
+:File_MenuItem	{container=':Address Book - MyAddresses.adr_Menubar' text='File' type='MenuItem'}
+:New_ToolbarItem	{container=':Address Book - Unnamed_Toolbar' text='New' type='ToolbarItem'}
+:Open_ToolbarItem	{container=':Address Book - Unnamed_Toolbar' text='Open' type='ToolbarItem'}
+:Save_ToolbarItem	{container=':Address Book - Unnamed_Toolbar' text='Save' type='ToolbarItem'}
+:Save_ToolbarItem_2	{container=':Address Book - MojaNowaTabela.adr_Toolbar' text='Save' type='ToolbarItem'}
+:_Edit	{container=':Address Book - MyAddresses.adr_Table' type='Edit'}
+:_Edit_2	{occurrence='46' type='Edit'}
+:_Edit_3	{occurrence='50' type='Edit'}

@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+            <meta name="description"
+            content="Watch thousands of free educational video tutorials on computer programming, game development, web design, video editing, 3D modeling, iPhone app development, Android app development, and more!">
+        <meta name="keywords"
+            content="free, educational, videos, tutorials, programming, bucky roberts, thenewboston, learn, css, java, c++, android, python, javascript, php, html5, html, tutorial, mysql, ruby, beginner, introduction, ajax, game development, after effects, photoshop, jquery, social network, buckysroom, bucky's room, source code, forum">
+    
+
+        <title>Recent Activity - thenewboston Forum</title>
+    <link rel='stylesheet' type='text/css' href='/css/main.css' >
+<link rel='stylesheet' type='text/css' href='/css/footer.css' >
+<link rel='stylesheet' type='text/css' href='/css/forum.css' >
+<link rel='stylesheet' type='text/css' href='/css/publisher.css' >
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script><![endif]-->
+
+    <script type='text/javascript' src='/js/jquery-1.9.0.js' ></script>
+</head>
+<body>
+
+<script>
+    (function (i, s, o, g, r, a, m){
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function (){
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-56989641-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<!-- Preload Images -->
+<div id="preload-wrapper">
+    <img src="/images/loading.gif"/> <img src="/images/loading1.gif"/> <img src="/images/loading2.gif"/> <img
+        src="/images/loading3.gif"/> <img src="/images/loading16.gif"/>
+</div>
+
+<div id="wrapper">
+        <header id="main_header">
+                    <a href="index.php" class="headerLogo">the<span class="secondColor">new</span>boston<span
+                    class="secondColor">forum</span></a>
+            </header>
+    <section id="main_section" class="forum-main-section">
+    <ul id="forum-nav">
+        <li class="current"><a href="/forum">Home</a></li>
+        <li><a href="/forum/search_topics.php">Search Topics</a></li>
+        <li><a href="/forum/search_forums.php">Browse Forums</a></li>
+    </ul>
+    <!-- Forum Left Menu Bar -->
+    <aside id="forum-left-bar">
+            <h2 class="titles">Login</h2>
+        <form id="loginform" action="/login.php" method="post">
+            <div class="row">
+                <input type="text" class="input" maxlength="60" name="email" id="email" placeholder='E-mail'/>
+            </div>
+            <div class="row">
+                <input type="password" class="input" maxlength="20" name="password" id="password" placeholder='Password'
+                    autocomplete="off"/>
+            </div>
+            <div class="row">
+                <label></label> <input type="submit" value="Log In" class="redButton" name="login_submit"> <input
+                    type="hidden" name="return" value="L2ZvcnVt"/>
+            </div>
+        </form>
+    
+    <dl   >
+        <dt>My Feeds</dt>
+
+                <dd>
+            <a href="/forum/recent_activity.php" class="current">All Activity</a>
+
+            <div class="menu-item-divider"></div>
+        </dd>
+    </dl>
+
+    
+    
+    <dl>
+        <dt>Following</dt>
+
+        
+                                        <dd>
+                <a href="/forum/category.php?id=21"
+                    >3D Modeling and Animation</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=6"
+                    >ActionScript</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=33"
+                    >After Effects</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=22"
+                    >Apple</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=7"
+                    >Assembly</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=46"
+                    >Bitcoin</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=41"
+                    >Bug Reports</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=8"
+                    >C</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=9"
+                    >C#</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=44"
+                    >C++</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=34"
+                    >Dreamweaver</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=35"
+                    >Flash</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=23"
+                    >Game Design / UDK / Unity</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=24"
+                    >Gaming</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=43"
+                    >General Chat</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=25"
+                    >Google / YouTube</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=26"
+                    >Hardware</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=27"
+                    >HTML / CSS / Web Design</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=36"
+                    >Illustrator</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=37"
+                    >InDesign</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=45"
+                    >Introductions</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=12"
+                    >iOS Development / Swift</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=10"
+                    >Java / Android Development</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=11"
+                    >Javascript</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=28"
+                    >Linux</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=29"
+                    >Microsoft</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=30"
+                    >Networking</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=40"
+                    >Other Adobe</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=32"
+                    >Other Computer Related</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=20"
+                    >Other Programming Languages</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=13"
+                    >Perl</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=38"
+                    >Photoshop</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=14"
+                    >PHP</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=39"
+                    >Premiere Pro</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=15"
+                    >Python</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=16"
+                    >Ruby</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=18"
+                    >Shell</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=19"
+                    >SQL & Databases</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=42"
+                    >Suggestions</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=31"
+                    >Video Editing</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+                                <dd>
+                <a href="/forum/category.php?id=17"
+                    >Visual Basic</a>
+
+                                <div class="menu-item-divider"></div>
+            </dd>
+        
+    </dl>
+
+</aside>    <section id="forum-content-wrapper">
+        <section id="main_content">
+                        <h2 class="titles">All Activity
+                                    - Page 1                            </h2>
+            <table cellpadding="0" cellspacing="0" class="forumlist">
+                                    <tfoot>
+                    <tr>
+                        <td colspan="3">            <div class="paginate">
+                <span
+                    class="label">1 - 30 of 6735</span>
+
+                <div class="pages">
+                                                <span class="current">Prev</span>
+                                                    <span class="current">1</span>
+                                                    <a href="/forum/recent_activity.php?page=2">2</a>
+                                                    <a href="/forum/recent_activity.php?page=3">3</a>
+                                                    <a href="/forum/recent_activity.php?page=4">4</a>
+                                                    <a href="/forum/recent_activity.php?page=5">5</a>
+                                                    <span class="ellipse">...</span>
+                                                <a href="/forum/recent_activity.php?page=224">224</a>
+                                            <a href="/forum/recent_activity.php?page=225">225</a>
+                                                <a href="/forum/recent_activity.php?page=2">Next</a>
+                                        </div>
+                <div class="clear"></div>
+            </div>
+        </td>
+                    </tr>
+                    </tfoot>
+                    <tbody>
+                                        <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8287"
+                                data-hashed="4cb022b0ccd9916a5c65f42d62abd648">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=27">
+                                                                <img src="/images/forum/logos/145efe2aab7ca9959397d6344180b658.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8287"
+                                class="post-title">HTML Textbox for User Input</a><br/> <a
+                                href="/profile.php?user=18800"
+                                class="poster-name">Vraj Patel</a> &gt;&gt; <a
+                                href="/forum/category.php?id=27"
+                                class="category-name">HTML / CSS / Web Design</a> <br/>
+
+                            <a href="/forum/topic.php?id=8287"
+                                class="postdate">3 hours 33 minutes ago</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8287"
+                                class="post-replies">5 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8300"
+                                data-hashed="bc599d8e97545ebf8d71518897e10071">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8300"
+                                class="post-title">About Appinventor</a><br/> <a
+                                href="/profile.php?user=5403"
+                                class="poster-name">Damindra Thennakoon</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8300"
+                                class="postdate">4 hours 31 minutes ago</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8300"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8303"
+                                data-hashed="64f382dc1f976cdccb2b7ed06defc467">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8303"
+                                class="post-title">Is it ok to watch Bucky&#039;s java playlist now in 2015?</a><br/> <a
+                                href="/profile.php?user=63923"
+                                class="poster-name">Kevin Tatar</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8303"
+                                class="postdate">4 hours 50 minutes ago</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8303"
+                                class="post-replies">2 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8299"
+                                data-hashed="809e57ad38dbced8735011de71b3010a">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8299"
+                                class="post-title">emulator: ERROR x86</a><br/> <a
+                                href="/profile.php?user=64082"
+                                class="poster-name">nate gose</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8299"
+                                class="postdate">4 hours 51 minutes ago</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8299"
+                                class="post-replies">5 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8284"
+                                data-hashed="289ec7d2a0b534877cf63433b08dfd37">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=15">
+                                                                <img src="/images/forum/logos/413e73d9c942b5dc27fcfce548046a15.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8284"
+                                class="post-title">xpath and css as input in python</a><br/> <a
+                                href="/profile.php?user=63960"
+                                class="poster-name">magic love</a> &gt;&gt; <a
+                                href="/forum/category.php?id=15"
+                                class="category-name">Python</a> <br/>
+
+                            <a href="/forum/topic.php?id=8284"
+                                class="postdate">6 hours 19 minutes ago</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8284"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8304"
+                                data-hashed="fa95c19edf53c101e570b165fa727511">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8304"
+                                class="post-title">Java game development tutorials: Animation... HELP</a><br/> <a
+                                href="/profile.php?user=13843"
+                                class="poster-name">Antonio Exposito</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8304"
+                                class="postdate">7 hours 11 minutes ago</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8304"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8245"
+                                data-hashed="90003b1ea3024ec37d80b1d0bf094550">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8245"
+                                class="post-title">Enabling HAXM for Android Studio</a><br/> <a
+                                href="/profile.php?user=63613"
+                                class="poster-name">Marcelo Sasso</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8245"
+                                class="postdate">7 hours 32 minutes ago</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8245"
+                                class="post-replies">5 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8294"
+                                data-hashed="173b3fb237490bfa0df752aee3a4f526">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=14">
+                                                                <img src="/images/forum/logos/14.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8294"
+                                class="post-title">Navigation Bar</a><br/> <a
+                                href="/profile.php?user=64040"
+                                class="poster-name">Nathaniel Mafemba</a> &gt;&gt; <a
+                                href="/forum/category.php?id=14"
+                                class="category-name">PHP</a> <br/>
+
+                            <a href="/forum/topic.php?id=8294"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8294"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8280"
+                                data-hashed="5558572426f877aab30b6e3b66a29c90">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8280"
+                                class="post-title">Can I watch the Android Development playlist if I don&#039;t know java?</a><br/> <a
+                                href="/profile.php?user=63923"
+                                class="poster-name">Kevin Tatar</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8280"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8280"
+                                class="post-replies">3 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8282"
+                                data-hashed="46a5cd71be8f85ce2937f3948c91c9ef">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=44">
+                                                                <img src="/images/forum/logos/b57c66566dd5286a036435b570d1740f.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8282"
+                                class="post-title">Whoa!</a><br/> <a
+                                href="/profile.php?user=63908"
+                                class="poster-name">Eric Barnes</a> &gt;&gt; <a
+                                href="/forum/category.php?id=44"
+                                class="category-name">C++</a> <br/>
+
+                            <a href="/forum/topic.php?id=8282"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8282"
+                                class="post-replies">3 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8301"
+                                data-hashed="b9dafbe80921f455dcb5d369789601f5">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=19">
+                                                                <img src="/images/forum/logos/19.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8301"
+                                class="post-title">Issues accessing to the website pages!</a><br/> <a
+                                href="/profile.php?user=64123"
+                                class="poster-name">lost files</a> &gt;&gt; <a
+                                href="/forum/category.php?id=19"
+                                class="category-name">SQL & Databases</a> <br/>
+
+                            <a href="/forum/topic.php?id=8301"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8301"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8176"
+                                data-hashed="8f710b106948c74014aff3ee0034a0b5">
+                                +1                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8176"
+                                class="post-title">Android Studio IDE problem</a><br/> <a
+                                href="/profile.php?user=63021"
+                                class="poster-name">Sheraz Ahmed</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8176"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8176"
+                                class="post-replies">3 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8276"
+                                data-hashed="8dc824f0c09306ae4b004027655a876e">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=44">
+                                                                <img src="/images/forum/logos/b57c66566dd5286a036435b570d1740f.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8276"
+                                class="post-title">Next step in C++</a><br/> <a
+                                href="/profile.php?user=63908"
+                                class="poster-name">Eric Barnes</a> &gt;&gt; <a
+                                href="/forum/category.php?id=44"
+                                class="category-name">C++</a> <br/>
+
+                            <a href="/forum/topic.php?id=8276"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8276"
+                                class="post-replies">3 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8262"
+                                data-hashed="846288fcb195f9a8d8485666839cd73b">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8262"
+                                class="post-title">I have an error with AVD manager</a><br/> <a
+                                href="/profile.php?user=63703"
+                                class="poster-name">Eyad mufti</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8262"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8262"
+                                class="post-replies">4 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8296"
+                                data-hashed="5ee63d7f9366f4d0cc13f3e7decd07db">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=15">
+                                                                <img src="/images/forum/logos/413e73d9c942b5dc27fcfce548046a15.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8296"
+                                class="post-title">Cannot run the web crawler</a><br/> <a
+                                href="/profile.php?user=21"
+                                class="poster-name">Steven v</a> &gt;&gt; <a
+                                href="/forum/category.php?id=15"
+                                class="category-name">Python</a> <br/>
+
+                            <a href="/forum/topic.php?id=8296"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8296"
+                                class="post-replies">6 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8288"
+                                data-hashed="42279d591f83d54db8966fb7b341504c">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8288"
+                                class="post-title">Emulator Problem</a><br/> <a
+                                href="/profile.php?user=63774"
+                                class="poster-name">raju ahmed</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8288"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8288"
+                                class="post-replies">2 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="7614"
+                                data-hashed="7951b75bc734d749a536afbf0fed7ac6">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=7614"
+                                class="post-title">HAXM not compatible.</a><br/> <a
+                                href="/profile.php?user=45996"
+                                class="poster-name">Nathan Moland</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=7614"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=7614"
+                                class="post-replies">16 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8297"
+                                data-hashed="a4bc48da870ccd5447ed7d6fc0a58cd1">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8297"
+                                class="post-title">&quot;No files are open&quot; error on launching Android Studio</a><br/> <a
+                                href="/profile.php?user=63531"
+                                class="poster-name">John Rowland</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8297"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8297"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8298"
+                                data-hashed="de6a11f90c2d64aead8fb530744f1e1e">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=32">
+                                                                <img src="/images/forum/logos/c58bbaa92cf3fc38f1a11631ba1ae3e8.jpg"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8298"
+                                class="post-title">Artifical Intelligence project idea</a><br/> <a
+                                href="/profile.php?user=8341"
+                                class="poster-name">naitik soni</a> &gt;&gt; <a
+                                href="/forum/category.php?id=32"
+                                class="category-name">Other Computer Related</a> <br/>
+
+                            <a href="/forum/topic.php?id=8298"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8298"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8275"
+                                data-hashed="026e3add8ddb8cc02e96e3d10e96d66f">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=15">
+                                                                <img src="/images/forum/logos/413e73d9c942b5dc27fcfce548046a15.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8275"
+                                class="post-title">page reloading, urllib2 can&#039;t get the page wanted, how to solve?</a><br/> <a
+                                href="/profile.php?user=58430"
+                                class="poster-name">lester Li</a> &gt;&gt; <a
+                                href="/forum/category.php?id=15"
+                                class="category-name">Python</a> <br/>
+
+                            <a href="/forum/topic.php?id=8275"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8275"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8293"
+                                data-hashed="5daab25b4e079b2cddacc843b465222b">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=11">
+                                                                <img src="/images/forum/logos/11.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8293"
+                                class="post-title">Need source code for NODE JS Chat Application</a><br/> <a
+                                href="/profile.php?user=64032"
+                                class="poster-name">Akhil Appana</a> &gt;&gt; <a
+                                href="/forum/category.php?id=11"
+                                class="category-name">Javascript</a> <br/>
+
+                            <a href="/forum/topic.php?id=8293"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8293"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8295"
+                                data-hashed="08512e615f28d57cbf320fd924601960">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=27">
+                                                                <img src="/images/forum/logos/145efe2aab7ca9959397d6344180b658.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8295"
+                                class="post-title">Opinion</a><br/> <a
+                                href="/profile.php?user=64044"
+                                class="poster-name">Sean De</a> &gt;&gt; <a
+                                href="/forum/category.php?id=27"
+                                class="category-name">HTML / CSS / Web Design</a> <br/>
+
+                            <a href="/forum/topic.php?id=8295"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8295"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8277"
+                                data-hashed="3a9ea2a0fc0e6013da291a9ff172e20d">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8277"
+                                class="post-title">Failed to convert 006699 into a drawable</a><br/> <a
+                                href="/profile.php?user=63904"
+                                class="poster-name">Nick I</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8277"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8277"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8209"
+                                data-hashed="218edc07f34d0898eb1723fca3a5f087">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=15">
+                                                                <img src="/images/forum/logos/413e73d9c942b5dc27fcfce548046a15.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8209"
+                                class="post-title">issue downloading image from web</a><br/> <a
+                                href="/profile.php?user=62140"
+                                class="poster-name">andrew clarke</a> &gt;&gt; <a
+                                href="/forum/category.php?id=15"
+                                class="category-name">Python</a> <br/>
+
+                            <a href="/forum/topic.php?id=8209"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8209"
+                                class="post-replies">3 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8289"
+                                data-hashed="9979a88de7b4c4107a13c980ea5957d9">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=11">
+                                                                <img src="/images/forum/logos/11.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8289"
+                                class="post-title">videos not playing on my laptope</a><br/> <a
+                                href="/profile.php?user=64025"
+                                class="poster-name">Aaqib Javed</a> &gt;&gt; <a
+                                href="/forum/category.php?id=11"
+                                class="category-name">Javascript</a> <br/>
+
+                            <a href="/forum/topic.php?id=8289"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8289"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8220"
+                                data-hashed="86888cfe73d9ac0b1a2e8a06636c9fe6">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=15">
+                                                                <img src="/images/forum/logos/413e73d9c942b5dc27fcfce548046a15.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8220"
+                                class="post-title">Video 24 not working</a><br/> <a
+                                href="/profile.php?user=63410"
+                                class="poster-name">Neil Macintyre</a> &gt;&gt; <a
+                                href="/forum/category.php?id=15"
+                                class="category-name">Python</a> <br/>
+
+                            <a href="/forum/topic.php?id=8220"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8220"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8291"
+                                data-hashed="9ff32faf58b04d70201514bde0dbf50f">
+                                +1                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=27">
+                                                                <img src="/images/forum/logos/145efe2aab7ca9959397d6344180b658.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8291"
+                                class="post-title">BACON SAMICHES AVAILABLE LOL</a><br/> <a
+                                href="/profile.php?user=63855"
+                                class="poster-name">sarmad sultan</a> &gt;&gt; <a
+                                href="/forum/category.php?id=27"
+                                class="category-name">HTML / CSS / Web Design</a> <br/>
+
+                            <a href="/forum/topic.php?id=8291"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8291"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8290"
+                                data-hashed="cf73ccf7423b7cf8019a472421d2555c">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=42">
+                                                                <img src="/images/forum/logos/42.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8290"
+                                class="post-title">SUGGESTIONS: COOL UNDERGRADUATE PROJECTS</a><br/> <a
+                                href="/profile.php?user=251"
+                                class="poster-name">John G</a> &gt;&gt; <a
+                                href="/forum/category.php?id=42"
+                                class="category-name">Suggestions</a> <br/>
+
+                            <a href="/forum/topic.php?id=8290"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8290"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8292"
+                                data-hashed="c1b981492f5e60c0940aa5440304794a">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=11">
+                                                                <img src="/images/forum/logos/11.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8292"
+                                class="post-title">Where to find the code for node js tutorial chat ??</a><br/> <a
+                                href="/profile.php?user=64032"
+                                class="poster-name">Akhil Appana</a> &gt;&gt; <a
+                                href="/forum/category.php?id=11"
+                                class="category-name">Javascript</a> <br/>
+
+                            <a href="/forum/topic.php?id=8292"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8292"
+                                class="post-replies">0 replies</a>
+
+                        </td>
+                                            <tr>
+                        <td class="post-votes " >
+                            <a href="#" class="thumb-up" data-type='topic' data-id="8279"
+                                data-hashed="cac1f4b16ea55cda6098169c5a283628">
+                                0                            </a>
+                        </td>
+                        <td class="icon-column">
+                            <a href="/forum/category.php?id=10">
+                                                                <img src="/images/forum/logos/dfdfdb6ea30dd264d092183442b4ec5c.png"
+                                    class="poster-icon"/> </a>
+                        </td>
+                        <td style="width:100%;" class="post-content">
+                            <a href="/forum/topic.php?id=8279"
+                                class="post-title">HELP!!! JAVA (class methods)</a><br/> <a
+                                href="/profile.php?user=58731"
+                                class="poster-name">francis smith</a> &gt;&gt; <a
+                                href="/forum/category.php?id=10"
+                                class="category-name">Java / Android Development</a> <br/>
+
+                            <a href="/forum/topic.php?id=8279"
+                                class="postdate">July 28, 2015</a>
+                            &middot;
+                            <a href="/forum/topic.php?id=8279"
+                                class="post-replies">1 reply</a>
+
+                        </td>
+                                            </tbody>
+                            </table>
+        </section>
+        <!-- Right ADs Side -->
+        <section id="forum-right-bar">
+            <div class="forum-ads">
+	<div class="ad-item">
+		<!-- 160 x 600px ad -->
+	</div>
+	<div class="ad-item">
+		<!-- 160 x 600px ad -->
+	</div>
+</div>        </section>
+    </section>
+</section>
+<script type="text/javascript">
+    jQuery(document).ready(function (){
+        $('.post-votes a.thumb-up,.post-votes a.thumb-down').click(function (){
+            if($(this).parent().hasClass('voted'))
+                return false;
+            var link = jQuery(this);
+            /*link.parent().find('.loading-wrapper').show();*/
+            jQuery.ajax({
+                url: '/forum/topic.php', data: {
+                    'objectID': link.attr('data-id'),
+                    'objectIDHash': link.attr('data-hashed'),
+                    'objectType': link.attr('data-type'),
+                    'action': link.attr('class')
+                }, type: 'post', dataType: 'xml', success: function (rsp){
+                    if(jQuery(rsp).find('status').text() == 'success'){
+                        link.html(jQuery(rsp).find('votes').text());
+                        link.parent().addClass('voted votedStatus' + (link.attr('class') == 'thumb-up' ? '1' : '-1'));
+                    }else{
+                        alert(jQuery(rsp).find('message').text());
+                    }
+                }, complete: function (){
+                    /*                    link.parent().find('.loading-wrapper').hide();*/
+                }
+            })
+            return false;
+        })
+    })
+</script>        <div id="main_footer">
+                    <a href="/register.php" class="headerLinks">Register</a> |
+            <a href="/register.php?forgotpwd=1" class="headerLinks">Forgot Password</a>     </div>
+    <div id="fixed_footer">
+        <div class="centered-navigation">
+            <ul id="footer_menu"><!-- Begin Footer Menu -->
+                <li class="home_button" style="border-left:1px solid rgba(0,0,0,0.4); height:auto;"><a href="/"></a>
+                </li>
+                <li><a href="/register.php" class="p_menu">Create an Account</a>
+                <li><a href="/forum" class="p_menu">Forum</a>
+                <li class="has-submenu"><a href="/tops.php?type=image&period=this-month" class="p_menu">Popular</a><!-- 1 Columns Menu Item -->
+                    <div class="submenu">
+                        <a href="/tops.php?type=image&period=this-month" class="redLinks">Most Popular</a> <a
+                            href="/tops.php?type=text&period=this-month">Posts</a> <a
+                            href="/tops.php?type=image&period=this-month">Images</a> <a
+                            href="/tops.php?type=video&period=this-month">Videos</a>
+                    </div>
+                </li>
+                <li><a href="/search.php?type=0&sort=reputation" class="p_menu">Search</a></li>
+                <!-- Videos -->
+                <li class="has-submenu" id="lft-last-li"><a href="/videos.php" class="p_menu">Videos & Tutorials</a>
+
+                    <div class="submenu">
+                        <a href="/videos.php" class="redLinks">Subjects</a> <a href="/videos_beauty.php">Beauty</a> <a
+                            href="/videos_business.php">Business</a> <a href="/videos.php">Computer Science</a> <a
+                            href="/videos_food.php">Cooking</a> <a href="/videos_humanities.php">Humanities</a> <a
+                            href="/videos_math.php">Math</a> <a href="/videos_science.php">Science</a> <a
+                            href="/videos_social.php">Social Sciences</a>
+                    </div>
+                </li>
+                <!-- End Videos -->
+                <li id="rightAlign">
+                                    </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<script type='text/javascript' src='/js/site.js' ></script>
+<script type='text/javascript' src='/js/jquery-migrate-1.2.0.js' ></script>
+</body>
+</html>

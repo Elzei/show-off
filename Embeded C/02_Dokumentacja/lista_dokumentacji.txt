@@ -1,0 +1,12 @@
+MB1075.pdf
+RM0090 Reference manual.pdf
+STM32F427xx Datasheet.pdf
+DDI0439B_cortex_m4_r0p0_trm.pdf
+DM00031020.pdf
+DUI0553A_cortex_m4_dgug.pdf
+en.CD00203648.pdf
+en.DM00071990.pdf
+en.DM00093903.pdf
+L3GD20.pdf
+MB1075.pdf
+STMPE811.pdf

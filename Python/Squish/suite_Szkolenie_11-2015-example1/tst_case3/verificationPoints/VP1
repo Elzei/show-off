@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="Table" version="4">
+<Description/>
+<Verification object=":Address Book - Unnamed_Table">
+<table hasText="1">
+<row>
+<cell>
+<text>C</text>
+</cell>
+<cell>
+<text>D</text>
+</cell>
+<cell>
+<text>C@D.com</text>
+</cell>
+<cell>
+<text>987654321</text>
+</cell>
+</row>
+<row>
+<cell>
+<text>A</text>
+</cell>
+<cell>
+<text>B</text>
+</cell>
+<cell>
+<text>A@B.com</text>
+</cell>
+<cell>
+<text>123456789</text>
+</cell>
+</row>
+</table>
+</Verification>
+</VerificationPoint>
