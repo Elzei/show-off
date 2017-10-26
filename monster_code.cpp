@@ -1,7 +1,9 @@
 #define A '-'-'-'
 #define B '/'/'/'
 
-int main(){
+http://google.com/
+
+int main(){	
 	int a = A;
 	//tekst??/
 	a = B;
