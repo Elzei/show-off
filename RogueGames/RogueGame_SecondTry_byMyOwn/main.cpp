@@ -1,99 +1,78 @@
 #include <ncurses.h>
- 
-void init();
-void erase( int y, int x );
-void game_loop( char main_char, int row, int col, int ch );
 
-// Entry function for game
-int main() 
-{
- 	//Define main character symbol and initial position
-	 int row = 10;
-	 int col = 10;
-	 char main_char = '@';
+#include "Screen.h"
+#include "Frame.h"
+#include "Character.h"
 
-	 //Start ncurses
-	 init();
+void game_loop(Frame &game_map, Frame &viewport, Character &main_char, int ch) {
+	// Check if the user wishes to play the game
+	if(ch == 'q' || ch =='Q') return;
 
-	 //Print a welcome message on screen
-	 printw("\t\tWelcome to the Rogue game.\n\t\tPress any key to start.\n\t\tIf you want to quit press \"q\"");
+	// Show the main character on the screen
+	game_map.add(main_char);
+	viewport.center(main_char);
+	viewport.refresh();
 
-	 //Wait until the user press a key
-	 int ch = getch();
-
-	 //Clear the screen
-	 clear();
-
-	 //Start the game loop
-	 game_loop(main_char, row, col, ch);
-
-	 //Clear ncurses data structures
-	 endwin();
-
-	 return 0;
-}
-
-// Initialize the ncurses library
-void init() 
-{
-	initscr();
-	clear();
-	noecho();
-	cbreak();
-	keypad(stdscr, TRUE);
-	curs_set(0);
-}
-
-// Define the "erase" character, use an empty character for cleaning a cell or a
-// visible character for showing the trace of a game character
-void erase( int y, int x )
-{
-	mvaddch(y, x, '#');
-}
-
-// Main loop of the game
-void game_loop( char main_char, int row, int col, int ch )
-{
-	//Check if user wishes to play the game
-	if( ch == 'q' || ch == 'Q' )
-		return;
-	
-	//Show the main character on screen
-	mvaddch(row, col, main_char);
-	refresh();
-
-	while(1)
-	{
+	while(1) {
 		ch = getch();
 
-		if( ch == KEY_LEFT )
-		{
-			erase(row, col);
-			col = col - 1;
-			mvaddch(row, col, main_char);
-			refresh();
+		// Main character movements
+		if(ch == KEY_LEFT) {
+			game_map.add(main_char, main_char.row(), main_char.col() - 1);
+			viewport.center(main_char);
+			viewport.refresh();
 		}
-		else if( ch == KEY_RIGHT )
-		{
-			erase(row, col);
-			col = col + 1;
-			mvaddch(row, col, main_char);
-			refresh();
+		else if(ch == KEY_RIGHT) {
+			game_map.add(main_char, main_char.row(), main_char.col() + 1);
+			viewport.center(main_char);
+			viewport.refresh();
 		}
-		else if( ch == KEY_UP )
-		{
-			erase(row, col);
-			row = row - 1;
-			mvaddch(row, col, main_char);
-			refresh();
+		else if(ch == KEY_UP) {
+			game_map.add(main_char, main_char.row() - 1, main_char.col());
+			viewport.center(main_char);
+			viewport.refresh();
 		}
-		else if( ch == KEY_DOWN )
-		{
-			erase(row, col);
-			row = row + 1;
-			mvaddch(row, col, main_char);
-			refresh();
+		else if(ch == KEY_DOWN) {
+			game_map.add(main_char, main_char.row() + 1, main_char.col());
+			viewport.center(main_char);
+			viewport.refresh();
+		}
+		else if(ch == 'q' || ch == 'Q') {
+			break;
 		}
 	}
 }
 
+
+// Entry function for game
+int main() {
+
+	// Initialize ncurses
+	Screen scr;
+
+	// Print a welcome message on screen
+	scr.add("Welcome to the RR game.\nPress any key to start.\nIf you want to quit press \"q\" or \"Q\"");
+
+	// Wait until the user press a key
+	int ch = getch();
+
+	// Create an ncurses window to store the game map. This will be twice the size
+	// of the screen and it will be positioned at (0,0) in screen coordinates
+	Frame game_map(2*scr.height(), 2*scr.width(), 0, 0);
+
+	// Create an ncurses subwindow of the game map. This will have the size 
+	// of the user screen and it will be initially postioned at (0, 0)
+	Frame viewport(game_map, scr.height(), scr.width(), 0, 0);
+
+	// Initialize the main character. We are going to put this in the middle of 
+	// the game map (for now)
+	Character main_char('@', game_map.height()/2, game_map.width()/2);
+
+	// Fill the game map with numbers
+	game_map.fill_window();
+
+	// Start the game loop
+	game_loop(game_map, viewport, main_char, ch);
+
+	return 0;
+}
