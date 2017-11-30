@@ -1,12 +1,8 @@
-CC=gcc
+CC=g++
 CFLAGS = -Wall
 
-TARGET = main
-
-all: $(TARGET)
-
-$(TARGET): $(TARGET).cpp
-	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
+all: main.cpp
+	$(CC) *.cpp $(CFLAGS) -lncurses -o RougeGame
 
 clean:
 	$(RM) $(TARGET)
