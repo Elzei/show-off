@@ -66,31 +66,31 @@ void game_loop( char main_char, int row, int col, int ch )
 	{
 		ch = getch();
 
-		if( ch == KEY_LEFT)
+		if( ch == KEY_LEFT )
 		{
 			erase(row, col);
 			col = col - 1;
 			mvaddch(row, col, main_char);
 			refresh();
 		}
-		else if( ch == KEY_RIGHT)
+		else if( ch == KEY_RIGHT )
 		{
 			erase(row, col);
 			col = col + 1;
 			mvaddch(row, col, main_char);
 			refresh();
 		}
-		else if( ch == KEY_UP)
+		else if( ch == KEY_UP )
 		{
 			erase(row, col);
-			col = row - 1;
+			row = row - 1;
 			mvaddch(row, col, main_char);
 			refresh();
 		}
-		else if( ch == KEY_DOWN)
+		else if( ch == KEY_DOWN )
 		{
 			erase(row, col);
-			col = col + 1;
+			row = row + 1;
 			mvaddch(row, col, main_char);
 			refresh();
 		}
