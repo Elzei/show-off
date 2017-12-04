@@ -28,11 +28,11 @@ int main(int argc, char ** argv) {
 			for( int i = 0; i < words_vector.size(); ++i) {
 				if(words_vector[i] == word) {
 					counter_bad++;
-					// std::cout<<"Word: "<<word<<" | ";
-					// for(int j = 0; j < words_vector.size(); j++) {
-					// 	std::cout<<" "<<words_vector[j]; 
-					// }
-					// std::cout<<std::endl;
+					std::cout<<"Word: "<<word<<" | ";
+					for(int j = 0; j < words_vector.size(); j++) {
+						std::cout<<" "<<words_vector[j]; 
+					}
+					std::cout<<std::endl;
 					break;
 				}					
 			}
@@ -44,3 +44,29 @@ int main(int argc, char ** argv) {
 
 	return 0;
 }
+
+// #include <iostream>
+// #include <algorithm>
+// #include <sstream>
+// #include <set>
+
+// int main()
+// {
+//     std::string line;
+//     int valid = 0;
+//     while(getline(std::cin, line))
+//     {
+//         std::set<std::string> unique;
+//         std::stringstream ss(line);
+//         std::string word;
+//         size_t count = 0;
+//         while(ss >> word)
+//         {
+//             std::sort(word.begin(), word.end());
+//             unique.insert(word);
+//             count++;
+//         }
+//         valid += count == unique.size();
+//     }
+//     std::cout << valid << std::endl;
+// }
