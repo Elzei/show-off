@@ -2,7 +2,7 @@
 #include <fstream>
 
 int main(int argc, char ** argv) {
-	std::ifstream kod("captcha");
+	std::ifstream kod("puzzle_input");
 	int sum = 0;
 	char current, next, first;
 	kod>>first;
