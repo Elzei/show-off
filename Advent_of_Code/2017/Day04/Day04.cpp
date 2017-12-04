@@ -1,7 +1,8 @@
-#include <iostream> //std::cout
-#include <fstream> 	//std::ifstream
-#include <sstream> 	//std::stringstream
-#include <vector>	//std::vector
+#include <iostream> 	//std::cout
+#include <fstream> 		//std::ifstream
+#include <sstream> 		//std::stringstream
+#include <vector>		//std::vector
+#include <map>		    //std::map
 
 int main(int argc, char ** argv) {
 	
@@ -21,10 +22,12 @@ int main(int argc, char ** argv) {
 		while( row_stream >> word) 
 			words_vector.push_back(word);
 
+		std::unordered_map<int, int> count;  // holds count of each encountered number 
+		for (int i = 0; i < words_vector.size(); i++)        
+    		count[ words_vector[i] ]++; 
 		
-
-		// for(auto x:words_vector)
-		// 	std::cout<<x<<"\n";
+		// for (auto &e:count)
+    	// 	std::cout << e.first <<" : "<<e.second<<std::endl; 
 	}
 
 	std::cout<<"\n\n\n\t\t\t"<<counter<<"\n\n\n";
