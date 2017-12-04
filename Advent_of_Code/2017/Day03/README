@@ -42,3 +42,6 @@ Once a square is written, its value does not change. Therefore, the first few sq
 What is the first value written that is larger than your puzzle input?
 
 Your puzzle input is still 361527.
+
+
+HINT: Taxicab geometry
