@@ -1,7 +1,7 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <sstream>
+#include <iostream>		//std::cout
+#include <fstream>		//getline
+#include <vector>		//std::vector
+#include <sstream>		//std::stringstream
 
 int main(int argc, char ** argv) {
 	std::ifstream puzzle;
