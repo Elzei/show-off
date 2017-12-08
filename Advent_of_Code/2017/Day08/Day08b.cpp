@@ -1,8 +1,8 @@
-#include <limits>
-#include <fstream>
-#include <iostream>
-#include <sstream>
-#include <map>
+#include <limits>   //std::numeric_limits
+#include <fstream>  //std::stringstream
+#include <iostream> //std::cout
+#include <sstream>  //std::ifstream
+#include <map>      //std::map
 
 int main(int argc, char *argv[])
 {
@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
   std::map<std::string,int> registers;
   std::getline(infile,line);
   int max_value(0);
+  
   while (infile && !line.empty())
     {
       std::stringstream ss (line);
@@ -38,8 +39,12 @@ int main(int argc, char *argv[])
       std::getline(infile,line);
     }
   int max_final_value (std::numeric_limits<int>::min());
+  
   for (auto &r: registers)
-    { max_final_value = std::max(max_final_value,r.second); }
+    max_final_value = std::max(max_final_value,r.second);
+  
   std::cout << "Max final value: " << max_final_value << "\n"
             << "Max intermediate value: " << max_value << "\n";
+
+  return 0;
 }
