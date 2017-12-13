@@ -1,3 +1,4 @@
+/*
 TO TEST:
 https://pl.wikipedia.org/wiki/Drzewo_sufiksowe
 http://namiekko.pl/2015/06/17/elegancki-algorytm-miesiaca-kadane/
