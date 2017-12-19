@@ -53,7 +53,7 @@ std::string follow(std::vector< std::string >& lines, int& steps) {
                 col--; 
                 break;
             case nomove:
-                std::cout << "STUCK at " << row << " " << col << " " << steps << std::endl;
+                std::cout << "STUCK at row: " << row << " col: " << col << " in step: " << steps << std::endl;
         }
         if (lines[ row ][ col ] >= 'A' && lines[ row ][ col ] <= 'Z' && dir != nomove)
             letters+=lines[ row ][ col ];
