@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ANSII_C_training"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ANSII_C_training">
+				<Option output="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/ANSII_C_training.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 ANSII_C_training"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ANSII_C_training/fast">
+				<Option output="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/ANSII_C_training.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 ANSII_C_training/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie11.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie110.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie111.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie112.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie12.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie13.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie14.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie15.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie16.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie17.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie18.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cwiczenie19.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/main.c">
+			<Option target="ANSII_C_training"/>
+		</Unit>
+		<Unit filename="C:/Users/Jedrzej/CLionProjects/ANSII_C_training/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

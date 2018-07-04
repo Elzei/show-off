@@ -1,0 +1,3 @@
+C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/CMakeFiles/ANSII_C_training.dir
+C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jedrzej/CLionProjects/ANSII_C_training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
